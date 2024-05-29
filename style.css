@@ -3,11 +3,18 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 45px;
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-transform: uppercase;
+}
+
+h2 {
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 a {
@@ -34,7 +41,37 @@ a {
   box-shadow: 5px 10px black;
 }
 
-#nav-links {
+.me-border {
+  border-right: solid lightskyblue 5px;
+  padding: 60px;
+}
+
+.paragraph {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 200px;
+  border-bottom: solid lightskyblue 5px;
+  padding-bottom: 50px;
+}
+
+.about-me,
+.my-work {
+  display: inline-flex;
+  padding: 50px;
+  margin-left: 50px;
+}
+
+.contact-me {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#nav-links,
+#contact-me {
   display: inline-block;
   margin-right: 15px;
   padding: 5px;
