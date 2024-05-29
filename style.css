@@ -46,7 +46,9 @@ a {
   padding: 60px;
 }
 
-.paragraph {
+.paragraph,
+.h3-border,
+.link-border {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -54,6 +56,16 @@ a {
   margin-left: 200px;
   border-bottom: solid lightskyblue 5px;
   padding-bottom: 50px;
+}
+
+.work-border {
+  border-right: solid lightskyblue 5px;
+  padding: 38px;
+}
+
+.contact-border {
+  border-right: solid lightskyblue 5px;
+  padding: 66px;
 }
 
 .about-me,
