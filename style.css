@@ -1,3 +1,11 @@
+:root {
+  --brdr-clr: lightskyblue;
+}
+
+* {
+  margin-bottom: 10px;
+}
+
 body {
   background-color: lightgray;
 }
@@ -27,7 +35,7 @@ a {
   justify-content: space-between;
   align-items: center;
   border: solid black 20px;
-  border-color: lightskyblue;
+  border-color: var(--brdr-clr);
   padding: 10px;
   background-color: lightskyblue;
 }
@@ -42,7 +50,7 @@ a {
 }
 
 .me-border {
-  border-right: solid lightskyblue 5px;
+  border-right: solid var(--brdr-clr) 5px;
   padding: 60px;
 }
 
@@ -54,17 +62,17 @@ a {
   justify-content: flex-end;
   align-items: flex-end;
   margin-left: 200px;
-  border-bottom: solid lightskyblue 5px;
+  border-bottom: solid var(--brdr-clr) 5px;
   padding-bottom: 50px;
 }
 
 .work-border {
-  border-right: solid lightskyblue 5px;
+  border-right: solid var(--brdr-clr) 5px;
   padding: 38px;
 }
 
 .contact-border {
-  border-right: solid lightskyblue 5px;
+  border-right: solid var(--brdr-clr) 5px;
   padding: 66px;
 }
 
@@ -80,6 +88,16 @@ a {
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
+}
+
+.link-border {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 200px;
+  border-bottom: solid var(--brdr-clr) 5px;
+  padding: 70px 0px 70px 0px;
 }
 
 #nav-links,
