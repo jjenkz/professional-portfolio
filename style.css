@@ -111,3 +111,28 @@ a {
   font-style: normal;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 1094px) {
+  #contact-me {
+    font-size: small;
+    flex-direction: column;
+    float: right;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .link-border {
+    border: none;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  #contact-me {
+    font-size: smaller;
+    flex-direction: column;
+    text-align: end;
+    float: right;
+    width: 100%;
+  }
+}
